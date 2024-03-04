@@ -33,7 +33,7 @@ class SymbolicGrammar:
     def trace_string_creation(self):
         sequence = [self.start_symbol]
         path_trace = [self.start_symbol]
-        lower_bound, upper_bound = 5, 10
+        lower_bound, upper_bound = 3, 10
         current_step = 0
         while current_step < upper_bound:
             change_made = False
