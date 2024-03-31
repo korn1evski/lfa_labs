@@ -110,7 +110,7 @@ class Lexer:
         return tokens
 
 
-text = "if (y < 50) return x * 10;"
+text = "if (x > 50) return x * 10;"
 lexer = Lexer(text)
 tokens = lexer.get_all_tokens()
 print(tokens)
