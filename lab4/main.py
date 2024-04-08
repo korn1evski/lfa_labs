@@ -33,11 +33,11 @@ def generate_from_pattern_with_steps(pattern):
     return output
 
 
-# Example pattern
+# Example patterR* S (T|U|V) W (x|y|z)^2n
 pattern1 = "(S|T) (U|V) W* Y+ 24"
 pattern2 = "L (M|N) O^3 p* Q (2|3)"
-pattern3 = "R* S (T|U|V) W (x|y|z)^2"
+pattern3 = ""
 
 # Generate sequence with step-by-step output
-final_sequence = generate_from_pattern_with_steps(pattern3)
+final_sequence = generate_from_pattern_with_steps(pattern1)
 print(f"Final Sequence: {final_sequence}")
